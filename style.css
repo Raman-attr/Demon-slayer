@@ -1,0 +1,151 @@
+@font-face {
+    font-family: rusty;
+    src: url(./RUSTY\ ATTACK\ DEMO\ Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(./anime2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+#main>h1{
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    font-family: rusty;
+}
+#nav{
+    padding: 10px 30px;
+}
+#nav a{
+    font-size: 18px;
+    color:#fff;
+    margin-right: 30px;
+    text-decoration: none;
+}
+#nav2{
+    position: absolute;
+    top: 1%;
+    right: 3%;
+}
+#nav2 a{
+    font-size: 18px;
+    color: #fff;
+    margin-right: 30px;
+    text-decoration: none;
+}
+#container h1{
+    margin-top: 12%;
+    font-size: 230px;
+    /* color: #ae5b62; */
+    color: #050404;
+    text-align: center;
+    font-family: rusty;
+}
+#section{
+    margin-top: 10px;
+    padding: 10px 30px;
+    width: 270px;
+}
+#section h1{
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: rusty;
+}
+#section p{
+    padding: 10px 10px;
+    color: #fff;
+}
+#section2{
+    margin-top: 10px;
+    padding: 10px 30px;
+    width: 270px;
+}
+#section2 h1{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: rusty;
+}
+#section2 p{
+    padding: 10px 10px;
+    color: #fff;
+}
+#main>img{
+    height: 100px;
+    position: absolute;
+}
+#main #first{
+    height: 270px;
+    top: 50%;
+    left:43%;
+    z-index: 99;
+}
+#main #third{
+    height: 250px;
+    top: 65%;
+    left: 51%;
+}
+#main #second{
+    height: 270px;
+    top: 45%;
+    left: 58%;
+}
+
+/* #Style for second page */
+#main2{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+#cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.page-title h1{
+    color: #fff;
+    font-family: rusty;
+    text-align: center;
+    padding: 20px;
+}
+.card1{
+    height: 250px;
+    width: 200px;
+    background-color: white;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    box-shadow: 10px 10px 20px #fff;
+}
+.card1 img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.card1 h1{
+    font-family: rusty;
+    font-weight: bolder;
+    font-size: 26px;
+}
+.card1 p{
+    color: #888;
+    padding: 10px;
+    text-align: center;
+}
