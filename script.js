@@ -58,3 +58,39 @@
 //     }
 // }
 
+
+// while loop
+// let attempt = 0;
+// let pass = "ramanqwerty"
+// let account = false;
+// let password = prompt("Enter the password..");
+// attempt++;
+// if(password===pass) account = true;
+// while(password!==pass){
+//     if(attempt === 3) {
+//         console.error("Acount Locked");
+//         break;
+//     }
+//     password = prompt("Enter the password..");
+//     if(password === pass) acount = true;
+//     attempt++;
+// }
+
+// if(account===true) console.log("Acount opened");
+
+
+let attempt = 0;
+let pass = "raman";
+let password = prompt("Enter the password..");
+attempt++;
+while(attempt<3 && password!==pass){
+    password = prompt("Enter the password..");
+    attempt++;
+}
+if(attempt===3 && password!==pass){
+    console.error("Account locked");
+}else{
+    console.log("Done");
+}
+
+
